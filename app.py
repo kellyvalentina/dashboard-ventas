@@ -10,7 +10,7 @@ st.title("Dashboard de Ventas ")
 st.markdown("Análisis interactivo de ventas por categoría, región y segmento.")
 
 # ---- CARGA DE DATOS ----
-RUTA = Path(__file__).parent / "data" / "Sample_Superstore.csv"
+RUTA = "data/Sample_Superstore.csv"
 
 @st.cache_data
 def cargar_datos():
